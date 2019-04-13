@@ -1,0 +1,22 @@
+body {
+  color:darkred;
+}
+
+#cam-h1 {
+  color:green;
+  background-color:lightblue;
+}
+
+#cam-head {
+  color:purple;
+  background-color:yellow;
+}
+
+.fancy-border {
+  border:3px dashed red;
+  padding:10px;
+}
+
+.blue-text {
+  color:blue;
+}

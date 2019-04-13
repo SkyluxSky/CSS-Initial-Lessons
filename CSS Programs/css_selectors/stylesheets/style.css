@@ -1,0 +1,69 @@
+* {
+  color: darkblue;
+}
+
+p, h2 {
+  border: 1px solid black;
+}
+
+ul > li:hover {
+  color:red;
+}
+
+h2 + ul {
+  background-color: lightgreen;
+}
+
+[href] {
+  background-color:pink;
+}
+
+li[title="lemons"] {
+  background-color:pink;
+}
+
+[title*="bana"] {
+  background-color:lightblue;
+}
+
+input:checked {
+  box-shadow: 2px 2px 2px red;
+  background-color: yellow;
+}
+
+input:focus {
+  box-shadow: 2px 2px 2px red;
+  background-color: yellow;
+}
+
+input[type="checkbox"]:checked {
+  color:green;
+}
+
+ul > li:first-child {
+  box-shadow: 2px 2px 2px red;  
+}
+
+ul > li:last-child {
+  box-shadow: 2px 2px 2px red;  
+}
+
+ul > li:nth-last-child(3) {
+  box-shadow: 2px 2px 2px blue;  
+}
+
+ul > li:nth-last-child(2) {
+  box-shadow: 2px 2px 2px blue;  
+}
+
+#myId {
+  background-color: yellow;
+}
+
+.class1 {
+  background-color: lightblue;
+}
+
+.class2 {
+  border: 1px solid green;
+}
